@@ -3,7 +3,7 @@ import { reactive, watchEffect } from "vue";
 
 
 const key = import.meta.env.VITE_KEY;
-const api = `http://www.omdbapi.com/?apikey=${key}`;
+const api = `https://www.omdbapi.com/?apikey=${key}`;
 
 
 const handleSearch = (term)=>{
