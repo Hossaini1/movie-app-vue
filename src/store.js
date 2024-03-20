@@ -12,7 +12,7 @@ const handleSearch = (term)=>{
 export const state = reactive({
     data :[],
     handleSearch: handleSearch,
-    searchTerm:'',
+    searchTerm:'Harry Potter',
 
 
 });
